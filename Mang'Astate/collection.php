@@ -8,6 +8,10 @@
         .navbar { background-color: #333; color: #fff; padding: 15px; }
         .navbar a { color: #fff; margin: 0 10px; text-decoration: none; }
         .manga { margin: 15px; }
+        table { width: 100%; border-collapse: collapse; }
+        table, th, td { border: 1px solid #333; }
+        th, td { padding: 15px; text-align: left; }
+        img { width: 100px; }
     </style>
 </head>
 <body>
@@ -47,7 +51,7 @@
                 </tr>
                 <?php foreach ($mangas as $manga): ?>
                 <tr>
-                    <td><img src="<?= $manga['image'] ?>" alt="<?= $manga['title'] ?>" style="width: 100px;"></td>
+                    <td><img src="<?= $manga['image'] ?>" alt="<?= $manga['title'] ?>"></td>
                     <td><?= $manga['title'] ?></td>
                     <td><?= $manga['author'] ?></td>
                     <td><?= $manga['owned_volumes'] ?> / <?= $manga['total_volumes'] ?></td>

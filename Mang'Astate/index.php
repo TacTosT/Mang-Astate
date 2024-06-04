@@ -2,6 +2,7 @@
 <html>
 <head>
     <title>Mang'Astate - Accueil</title>
+    <?php include 'header.php'; ?>
 </head>
 <body>
     <header>

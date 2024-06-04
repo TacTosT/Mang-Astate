@@ -26,7 +26,22 @@
     </header>
     <main>
         <div class="manga">
-            <!-- Ici, vous pouvez ajouter du code pour afficher vos mangas -->
+            <?php
+            // index.php
+            require 'db_connection.php';
+            
+            $sql = "SELECT * FROM your_table ORDER BY your_date_column DESC LIMIT 5";
+            $stmt = $pdo->prepare($sql);
+            $stmt->execute();
+            
+            $mangas = $stmt->fetchAll();
+            
+            foreach ($mangas as $manga) {
+                echo "<h3>" . $manga['title'] . "</h3>";
+                echo "<p>" . $manga['description'] . "</p>";
+                echo "<hr>";
+            }
+            ?>
         </div>
     </main>
 </body>

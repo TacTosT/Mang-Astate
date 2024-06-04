@@ -7,7 +7,8 @@
         body { font-family: Arial, sans-serif; }
         .navbar { background-color: #333; color: #fff; padding: 15px; }
         .navbar a { color: #fff; margin: 0 10px; text-decoration: none; }
-        .content { margin: 15px; }
+        .content { margin: 15px; line-height: 1.6; font-size: 18px; }
+        .content p { text-indent: 50px; }
     </style>
 </head>
 <body>
@@ -26,8 +27,9 @@
     </header>
     <main>
         <div class="content">
-            <!-- Ici, vous pouvez ajouter du contenu à propos de vous ou de votre site -->
-            <p>Cette page est en cours de construction. Revenez bientôt pour en savoir plus sur nous!</p>
+            <p>
+                Bienvenue sur Mang'Astate, votre destination ultime pour tout ce qui concerne les mangas. Que vous soyez un collectionneur de longue date ou un nouveau fan, nous avons quelque chose pour vous. Sur notre site, vous pouvez suivre votre collection de mangas, enregistrer vos mangas préférés dans une liste de souhaits et même découvrir de nouveaux mangas à lire. Nous sommes passionnés par les mangas et nous voulons partager cette passion avec vous. Alors, explorez, découvrez et, surtout, amusez-vous !
+            </p>
         </div>
     </main>
 </body>

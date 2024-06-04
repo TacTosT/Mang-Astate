@@ -35,8 +35,6 @@
     $mangas = $stmt->fetchAll();
     ?>
     
-    <!-- Reste du code HTML -->
-    
     <main>
         <div class="manga">
             <table>

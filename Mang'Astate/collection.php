@@ -61,7 +61,5 @@
             </table>
         </div>
     </main>
-    
-    <!-- Reste du code HTML -->
 </body>
 </html>

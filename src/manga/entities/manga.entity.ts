@@ -20,6 +20,6 @@ export class Manga {
 
     @Column()
     release_date: Date
-
+    
 
 }
